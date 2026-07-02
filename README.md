@@ -22,7 +22,8 @@ above, remains basically the same due to the structure of six-membered ice !
 
 ### Note: P3Mtip5 Simulation Code is Self-Diffusive and Must be Corrected ###
 
-It is noted that self-diffusion of the P3Mtip5 simulation code is quite high, 
+The TIP5P simulation code is said to be accurate, but 
+is noted that self-diffusion of the p3mTIP5P simulation code is quite high, 
 namely, as much as 60 percents of the kinetic energy.
 One must subtract the kinetic energy. First, the exc= 0 run by initial five periods 
 (not used) and five periods of time are made.
