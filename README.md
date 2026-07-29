@@ -37,8 +37,8 @@ collapse of methane hydrate. Energies and scatter plots of molecules, the distri
 in the x-direction are shown in the PDF file "MDTip5pWater-8.pdf", the new version at https://arxiv.org/abs/2311.01182v8 (2024).
 
 The TIP4P/2005 has been tested, and it should be correct so far.
-However, the water energy increases rapidly in the 4-atom water, unlike
-the 5-atom TIP5P code.  
+However, the water energy with the exc=0 dryrun increases rapidly in the 4-atom water,
+unlike the 5-atom TIP5P code with symmetric H-H and L-L atoms.  
 
 As natural resources, however, the methanes are 30 times environmentally more hazardous 
 materials than carbon dioxide. The methane hydrate that will be mined and then burnt in air 
