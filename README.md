@@ -36,6 +36,10 @@ It runs up to t= 1.7 x 10^(-8) s with E_x = 3. x 10^7 V/cm, which is terminated 
 collapse of methane hydrate. Energies and scatter plots of molecules, the distribution of cosine's 
 in the x-direction are shown in the PDF file "MDTip5pWater-8.pdf", the new version at https://arxiv.org/abs/2311.01182v8 (2024).
 
+The TIP4P/2005 has been tested, and it should be correct so far.
+However, the water energy increases rapidly in the 4-atom water, unlike
+the 5-atom TIP5P code.  
+
 As natural resources, however, the methanes are 30 times environmentally more hazardous 
 materials than carbon dioxide. The methane hydrate that will be mined and then burnt in air 
 should be confined back to the deep interior of the earth if we need it as natural resources.
