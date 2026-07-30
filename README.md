@@ -20,6 +20,11 @@ The fortran code with MPI is given in the file @p3mtip5p07a.f03 with additional 
 The freezing ice state by microwaves, which is our theory discovery in JCP 2007 mentioned 
 above, remains basically the same due to the structure of six-membered ice ! 
 
+The TIP4P/2005 code has been created and tested, and it should be correct so far.
+However, the water energy with the exc=0 dryrun increases rather rapidly in the 4-atom 
+sites of O-H-H-M, unlike the 5-atom TIP5P/Ew code with symmetric positive H-H and 
+negative L-L sites.  
+
 ### Note: P3Mtip5 Simulation Code is Self-Diffusive and Must be Corrected ###
 
 The TIP5P simulation code is said to be accurate, but 
@@ -35,11 +40,6 @@ like with the SPC/E code (Ref. 3). We need the initial coordinate file mh3.exyz 
 It runs up to t= 1.7 x 10^(-8) s with E_x = 3. x 10^7 V/cm, which is terminated suddenly due to 
 collapse of methane hydrate. Energies and scatter plots of molecules, the distribution of cosine's 
 in the x-direction are shown in the PDF file "MDTip5pWater-8.pdf", the new version at https://arxiv.org/abs/2311.01182v8 (2024).
-
-The TIP4P/2005 code has been created and tested, and it should be correct so far.
-However, the water energy with the exc=0 dryrun increases rather rapidly in the 4-atom 
-sites of O-H-H-M, unlike the 5-atom TIP5P/Ew code with symmetric positive H-H and 
-negative L-L sites.  
 
 As natural resources, however, the methanes are 30 times environmentally more hazardous 
 materials than carbon dioxide. The methane hydrate that will be mined and then burnt in air 
