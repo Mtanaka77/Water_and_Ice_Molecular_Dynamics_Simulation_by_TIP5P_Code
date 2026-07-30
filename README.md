@@ -26,6 +26,8 @@ along the H-O-H angle bisector and it should be correct so far.
 However, the water energy with the exc=0 dryrun increases rather rapidly in the 4-atom 
 sites of O-H-H-M, unlike the 5-atom TIP5P/Ew code with symmetric positive H-H and 
 negative L-L sites.  
+On the other hand, there occurs self-diffusion for the TIP5P code which must be 
+corrected below.
 
 ### Note: P3Mtip5 Simulation Code is Self-Diffusive and Must be Corrected ###
 
