@@ -38,7 +38,8 @@ in the x-direction are shown in the PDF file "MDTip5pWater-8.pdf", the new versi
 
 The TIP4P/2005 code has been created and tested, and it should be correct so far.
 However, the water energy with the exc=0 dryrun increases rather rapidly in the 4-atom 
-water, unlike the 5-atom TIP5P/Ew code with symmetric positive H-H and negative L-L sites.  
+sites of O-H-H-M, unlike the 5-atom TIP5P/Ew code with symmetric positive H-H and 
+negative L-L sites.  
 
 As natural resources, however, the methanes are 30 times environmentally more hazardous 
 materials than carbon dioxide. The methane hydrate that will be mined and then burnt in air 
