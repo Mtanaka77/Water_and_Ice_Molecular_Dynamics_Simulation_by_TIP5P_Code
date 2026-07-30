@@ -20,7 +20,8 @@ The fortran code with MPI is given in the file @p3mtip5p07a.f03 with additional 
 The freezing ice state by microwaves, which is our theory discovery in JCP 2007 mentioned 
 above, remains basically the same due to the structure of six-membered ice ! 
 
-The four-body TIP4P/2005 code has been created, where the oxygen site plays the LJ potentials, the two H sites are positively charged and the negatively charged/massless M site is placed along the H-O-H angle bisector, and it should be correct so far. However, the water energy with the exc=0 dryrun increases rather rapidly in the four-atom sites of O-H-H-M, unlike the five-atom TIP5P/Ew code with symmetric positive H-H and negative L-L sites. On the other hand, there occurs self-diffusion for the TIP5P code which must be corrected below.
+The four-body TIP4P/2005 code has been created, where the oxygen site plays the LJ potentials, the two H sites are positively charged and the negatively charged/massless M site is placed along the H-O-H angle bisector. 
+However, the water energy with the exc=0 dryrun increases rather rapidly in the four-atom sites of O-H-H-M, unlike the five-atom TIP5P/Ew code with symmetric positive H-H and negative L-L sites. On the other hand, there occurs self-diffusion for the TIP5P code which must be corrected below.
 
 ### Note: P3Mtip5 Simulation Code is Self-Diffusive and Must be Corrected ###
 
