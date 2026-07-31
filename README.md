@@ -24,7 +24,7 @@ The four-body TIP4P/2005 code has been created, where the oxygen site plays the 
 the two H sites are positively charged and the negatively charged/massless M site is placed 
 along the H-O-H angle bisector. 
 However, the water energy with the exc=0 dryrun increases rather rapidly and is almost 
-mixed in the four-atom sites of O-H-H-M. One should decrease the time step as half,
+mixed in the four-atom sites of O-H-H-M. One should decrease the time step as half or less,
 and run the simulation again !! 
 It is unlike the five-atom TIP5P/Ew code with symmetric positive H-H and negative 
 L-L sites. On the other hand, there occurs self-diffusion for the TIP5P code 
