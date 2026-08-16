@@ -1,22 +1,27 @@
 ##  Water and Hydrate by TIP5P Molecular Dynamics Simulation ##
 
-We have studied the microwave heating of water and ice by means of the TIP5P molecular dynamics simulation 
-(with if_xyz2=.true.), and that of methane hydrate (with if_xyz1=.true.) by the same code.
+We have studied the microwave heating of water and ice by means of the TIP5P molecular dynamics 
+simulation (with if_xyz2=.true.), and that of methane hydrate (with if_xyz1=.true.) by the same code.
 
 This is the second generation code against the first one of 3-point SPC/E shake/rattle algorithm 
 to study the microwave heating of water and ice. It was shown clearly in the first generation code that 
 the ice below 273 K becomes a crystal and is not melted against the strong electric field of microwaves 
-(JCP, 2007, Ref. 1).
-The new results by the 5-body rotation coordinate system and TIP5P-Ewald model are shown below 
-and the PDF in the arXiv Library: https://arxiv.org/abs/2311.01182 (2023, 2024).
+(JCP, 2007, Ref. 1). The new results by the 5-body rotation coordinate system and TIP5P-Ewald model 
+are shown below and the PDF in the arXiv Library: https://arxiv.org/abs/2311.01182 (2023, 2024).
 
 The five-point molecules for water are used known as the TIP5P-Ewald model. 
 The five-water molecules are specified to calculate two hydrogens q_H= 0.241e 
 and negative two hydrogens q_L= -0.241e with e the electron charge. 
 The fifth oxygen atom of q_O= 0.0 is to correlate with adjacent molecules 
 using the Lennard-Jones potential Psi(r)= eps_A/r^12 -eps_B /r^6 (Ref. 2).  
+The time step is dt= 0.025 which is acceptable.
 
-The fortran code with MPI is given in the file @p3mtip5p07a.f03 with additional files as param_tip5D07a.h, TIP507_config.start0, and initial coordinates 1cx666a.exyz and quaternions 1cx666a.q. Its description of the code is shown at README.md and also PDF documents of this repository. The latter documents are "Water_TIP5P_Simulation.pdf" for numerical coding, and for the physics simulation run by "Water_and_hydrate_molecules_by_TIP5P_code.pdf". 
+The fortran code with MPI is given in the file @p3mtip5p07a.f03 with additional files as 
+param_tip5D07a.h, TIP507_config.start0, and initial coordinates 1cx666a.exyz and 
+quaternions 1cx666a.q. Its description of the code is shown at README.md and also 
+PDF documents of this repository. The latter documents are "Water_TIP5P_Simulation.pdf" 
+for numerical coding, and for the physics simulation run by 
+"Water_and_hydrate_molecules_by_TIP5P_code.pdf". 
 The freezing ice state by microwaves, which is our theory discovery in JCP 2007 mentioned 
 above, remains basically the same due to the structure of six-membered ice ! 
 
@@ -25,8 +30,8 @@ the two H sites are positively charged and the negatively charged/massless M sit
 along the H-O-H angle bisector. 
 However, the water energy with the exc=0 dryrun increases rather rapidly and is almost 
 mixed in the four-atom sites of O-H-H-M. One should decrease the time step as half or less,
-and run the simulation again.
-The half of a time step dt= 0.0125 can be acceptable at all although it has noises. 
+and run the simulation again. The half of a time step dt= 0.0125 can be acceptable at all 
+although it has much noises. 
 It is unlike the five-atom TIP5P/Ew code with symmetric positive H-H and negative 
 L-L sites. On the other hand, there occurs self-diffusion for the TIP5P code 
 which must be corrected below.
