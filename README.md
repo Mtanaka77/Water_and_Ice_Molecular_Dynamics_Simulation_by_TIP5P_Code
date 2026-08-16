@@ -32,6 +32,7 @@ However, the water energy with the exc=0 dryrun increases rather rapidly and is 
 mixed in the four-atom sites of O-H-H-M. One should decrease the time step as half or less,
 and run the simulation again. The half of a time step dt= 0.0125 can be acceptable at all 
 although it has much noises. 
+
 It is unlike the five-atom TIP5P/Ew code with symmetric positive H-H and negative 
 L-L sites. On the other hand, there occurs self-diffusion for the TIP5P code 
 which must be corrected below.
