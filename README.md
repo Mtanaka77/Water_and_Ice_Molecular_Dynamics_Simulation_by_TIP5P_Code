@@ -14,7 +14,7 @@ The five-water molecules are specified to calculate two hydrogens q_H= 0.241e
 and negative two hydrogens q_L= -0.241e with e the electron charge. 
 The fifth oxygen atom of q_O= 0.0 is to correlate with adjacent molecules 
 using the Lennard-Jones potential Psi(r)= eps_A/r^12 -eps_B /r^6 (Ref. 2).  
-The time step is dt= 0.025 which is acceptable.
+The time step is dt= 0.25 fs (2.5 x 10^-16 s) which is acceptable.
 
 The fortran code with MPI is given in the file @p3mtip5p07a.f03 with additional files as 
 param_tip5D07a.h, TIP507_config.start0, and initial coordinates 1cx666a.exyz and 
@@ -30,8 +30,8 @@ the two H sites are positively charged and the negatively charged/massless M sit
 along the H-O-H angle bisector. 
 However, the water energy with the exc=0 dryrun increases rather rapidly and is almost 
 mixed in the four-atom sites of O-H-H-M. One should decrease the time step as half or less,
-and run the simulation again. The time step dt= 0.0125, which is a half of the initial 
-one, can be acceptable at all although it has much noises. 
+and run the simulation again. The time step dt= 0.125 fs (1.25 x 10^-16 s), which 
+is a half of the initial one, can be acceptable at all although it has much noises. 
 
 It is unlike the five-atom TIP5P/Ew code with symmetric positive H-H and negative 
 L-L sites. On the other hand, there occurs self-diffusion for the TIP5P code 
