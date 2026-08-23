@@ -13,7 +13,7 @@ The five-point molecules for water are used known as the TIP5P-Ewald model.
 The five-water molecules are specified to calculate two hydrogens q_H= 0.241e 
 and negative two hydrogens q_L= -0.241e with e the electron charge. 
 The fifth oxygen atom of q_O= 0.0 is to correlate with adjacent molecules 
-using the Lennard-Jones potential Psi(r)= eps_A/r^12 -eps_B /r^6 (Ref. 2). The time step is dt= 0.25 fs (2.5 x 10^-16 s) which is acceptable.
+using the Lennard-Jones potential Psi(r)= eps_A/r^12 -eps_B /r^6 (Ref. 2). The time step dt= 0.25 fs (2.5 x 10^-16 s) is acceptable.
 
 The fortran code with MPI is given in the file @p3mtip5p07a.f03 with additional files as 
 param_tip5D07a.h, TIP507_config.start0, and initial coordinates 1cx666a.exyz and 
