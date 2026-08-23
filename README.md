@@ -24,7 +24,7 @@ for numerical coding, and for the physics simulation run by
 The freezing ice state by microwaves, which is our theory discovery in JCP 2007 mentioned 
 above, remains basically the same due to the structure of six-membered ice ! 
 
-The four-body TIP4P/2005 code has been created, where the oxygen site plays the LJ potentials, 
+The four-body TIP4P/2005 code has been tested, where the oxygen site plays the LJ potentials, 
 the two H sites are positively charged and the negatively charged/massless M site is placed 
 along the H-O-H angle bisector. 
 However, the water energy with the exc=0 dryrun increases rather rapidly and is almost 
