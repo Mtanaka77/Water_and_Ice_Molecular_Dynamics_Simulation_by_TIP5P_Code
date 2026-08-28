@@ -39,12 +39,13 @@ which must be corrected below.
 ### Note: P3Mtip5 Simulation Code is Self-Diffusive and Must be Corrected ###
 
 The TIP5P simulation code is said to be accurate, but 
-is noted that self-diffusion of the p3mTIP5P simulation code is quite high, 
-namely, as much as 60 percents of the kinetic energy.
+is noted that self-diffusion of the p3mTIP5P simulation code is so high, 
+namely, as much as 60 percents of the basic kinetic energy.
 One must subtract the kinetic energy. First, the exc= 0 run by initial five periods 
 (not used) and five periods of time are made.
-Then in the second, the subtraction is done for any exc> 0 runs in t> t_initial, 
+Then in the second, the subtraction is done for any exc> 0 run in t> t_initial, 
 typically that is t_initial= 50000 in 10 fs, and to be continued on.
+The real kinetic energy is the kinetic energy minus the self-diffusion.  
 
 Methane hydrate is simulated by switching to if_xyz1=.true. of the TIP5P code, 
 like with the SPC/E code (Ref. 3). We need the initial coordinate file mh3.exyz and quaternions mh3.q. 
