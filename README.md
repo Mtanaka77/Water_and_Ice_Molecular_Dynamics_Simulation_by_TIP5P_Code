@@ -45,7 +45,7 @@ One must subtract the kinetic energy. First, the exc= 0 run by initial five peri
 (not used) and five periods of time are made.
 Then in the second, the subtraction is done for any exc> 0 run in t> t_initial, 
 typically that is t_initial= 50000 in 10 fs, and to be continued on.
-The real kinetic energy is the kinetic energy minus the self-diffusion.  
+The real kinetic energy is the kinetic energy minus the self-diffusion subtracted.  
 
 Methane hydrate is simulated by switching to if_xyz1=.true. of the TIP5P code, 
 like with the SPC/E code (Ref. 3). We need the initial coordinate file mh3.exyz and quaternions mh3.q. 
