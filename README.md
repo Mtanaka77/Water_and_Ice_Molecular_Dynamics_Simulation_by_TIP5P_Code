@@ -36,7 +36,7 @@ It is unlike the five-atom TIP5P/Ew code with symmetric positive H-H and negativ
 L-L sites. On the other hand, there occurs self-diffusion for the TIP5P code 
 which must be corrected below.
 
-### Note: P3Mtip5 Simulation Code is Self-Diffusive and Must be Corrected ###
+### Note: P3Mtip5 Simulation Code is Self-Diffusive and Must be Subtracted ###
 
 The TIP5P simulation code is said to be accurate, but 
 is noted that self-diffusion of the p3mTIP5P simulation code is so high, 
