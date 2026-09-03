@@ -1,6 +1,6 @@
 ##  Water and Hydrate by TIP5P Molecular Dynamics Simulation ##
 
-We have studied the microwave heating of water and ice by means of the TIP5P molecular dynamics 
+We study the microwave heating of water and ice by means of the TIP5P molecular dynamics 
 simulation (with if_xyz2=.true.), and that of methane hydrate (with if_xyz1=.true.) by the same code.
 
 This is the second generation code against the first one of 3-point SPC/E shake/rattle algorithm 
